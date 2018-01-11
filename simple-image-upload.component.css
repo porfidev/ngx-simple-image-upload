@@ -1,0 +1,22 @@
+div.simpleImageUpload.is-dragover {
+  background-color: greenyellow;
+  border-color: green;
+}
+
+div.simpleImageUpload {
+  background-color: #F8F8F8;
+  border: 2px dashed #B1B2B7;
+  width: 200px;
+  height: 200px;
+  white-space: pre; /* Important for breakLine */
+  cursor: pointer;
+}
+
+div.simpleImageUpload:before {
+  padding: 0 5px 0 0;
+  content: "Drop Image \A or \A Click Here";
+  position: relative;
+  width: 10px;
+  top: 60px;
+  left: 50px;
+}
