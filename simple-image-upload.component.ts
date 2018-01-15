@@ -3,7 +3,7 @@ import {AfterViewInit, Component, ElementRef, EventEmitter, OnInit, Output} from
 declare var $: any; // Needs jQuery to Work
 
 @Component({
-  selector: 'app-simple-image-upload',
+  selector: 'simple-image-upload',
   templateUrl: './simple-image-upload.component.html',
   styleUrls: ['./simple-image-upload.component.css']
 })
