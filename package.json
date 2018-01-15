@@ -1,6 +1,6 @@
 {
   "name": "ngx-simple-image-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An angular component for upload images and read them inline.",
   "main": "index.ts",
   "scripts": {
